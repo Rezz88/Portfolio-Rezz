@@ -1,0 +1,155 @@
+.container {
+  background: #dfdcdc;
+  background: linear-gradient(white, whitesmoke, #dfdcdc, #332b2b);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Header */
+
+header {
+  background-color: #404040;
+  border-bottom: 4px solid red;
+}
+
+nav ul li a {
+  color: whitesmoke;
+  font-size: 20px;
+  text-shadow: -3px 6px 5px black;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: red;
+  transition: 0.2s;
+}
+
+#menu {
+  display: none;
+  transition: 0.5s ease-in-out;
+}
+
+.clicked {
+  transform: scale(0.7) rotate(180deg);
+  background-color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.close {
+  display: none;
+}
+
+.open {
+  height: 40px;
+  background-color: #404040;
+}
+
+.open ul {
+  margin: 0;
+}
+
+.open ul li a {
+  font-size: 21px;
+  text-decoration: none;
+  color: whitesmoke;
+  text-shadow: -3px 6px 5px black;
+}
+
+.open ul li a:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+@media (max-width: 650px) {
+  #menu {
+    display: flex;
+  }
+
+  .open {
+    display: block;
+  }
+}
+
+/* Developer */
+
+#developer {
+  font-family: "Jockey One", sans-serif;
+  height: 700px;
+  background: url(../IMG/Black.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#developer h3 {
+  font-size: 3rem;
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-shadow: -2px 2px 25px #404040;
+}
+
+#developer h1 {
+  letter-spacing: 1px;
+  font-size: 4rem;
+  color: red;
+}
+
+/* About */
+
+#about h3 {
+  font-family: "Jockey One", sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+/* Portfolio */
+
+#portfolio h3 {
+  font-family: "Jockey One", sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  border: solid black 2px;
+  box-shadow: -3px 3px 20px black;
+}
+
+/* Contact */
+
+.top-icon {
+  box-shadow: -3px 3px 20px black;
+}
+
+.top-icon:hover {
+  height: 45px;
+  width: 55px;
+  transition: 0.2s;
+}
+
+#contact {
+  color: whitesmoke;
+  background-color: #404040;
+}
+
+#contact h4 {
+  letter-spacing: 2px;
+}
+
+.contact-icons ul {
+  transform: scale(3);
+}
+
+.contact-icons ul li a {
+  color: whitesmoke;
+  text-shadow: -2px 2px 5px black;
+}
+
+.contact-icons ul li a:hover {
+  color: red;
+  transition: 0.5s;
+}
