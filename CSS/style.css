@@ -95,6 +95,13 @@ nav ul li a:hover {
   color: red;
 }
 
+@media (max-width: 374px) {
+  #developer h1 {
+    letter-spacing: 1px;
+    font-size: 3rem;
+  }
+}
+
 /* About */
 
 #about h3 {
