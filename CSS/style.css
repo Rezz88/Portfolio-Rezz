@@ -80,6 +80,7 @@ nav ul li a:hover {
   background: url(../IMG/Black.jpg) no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 #developer h3 {
